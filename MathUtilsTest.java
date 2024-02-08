@@ -41,7 +41,7 @@ public class MathUtilsTest {
     }
 
     @Test
-    public void testDivideByZero() {
+    public void testivideByZero() {
         double result = mathUtils.divide(8, 0);
         assertEquals(-1.0, result, 0.001);
     }
